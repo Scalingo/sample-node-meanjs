@@ -2,7 +2,7 @@
 
 https://sample-node-meanjs.scalingo.io
 
-## Modifications with standard distribution:
+## Modifications of the standard distribution:
 
 config/env/production.js: Read `MONGO_URL` environment variable
 
@@ -19,7 +19,7 @@ module.exports = {
 }
 ```
 
-Log everything to stdout (comment file log part)
+Log everything to stdout (comment log file part)
 
 ```js
 {
@@ -50,16 +50,22 @@ module.exports = {
 You can use our CLI: http://cli.scalingo.com
 Or the web dashboard to achieve these operations: https://my.scalingo.com
 
+### Create your app
+
+```
+scalingo create [your-app-name]
+```
+
 ### Set environment to production
 
 ```
-scalingo -a your-app-name env-set NODE_ENV=production
+scalingo -a [your-app-name] env-set NODE_ENV=production
 ```
 
 ### Allocating a MongoDB Addon.
 
 ```
-scalingo -a your-app-name addons-add scalingo-mongodb free
+scalingo -a [your-app-name] addons-add scalingo-mongodb free
 -----> Addon scalingo-mongodb has been provisionned
        ID: your-app-name
        Modified variables: [MONGO_URL SCALINGO_MONGO_URL]
