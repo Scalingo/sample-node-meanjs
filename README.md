@@ -66,6 +66,15 @@ scalingo -a your-app-name addons-add scalingo-mongodb free
        Message from addon provider: Database successfully created
 ```
 
+### Check in grunt build result and deploy
+
+```
+NODE_ENV=production grunt build
+git add -f public/dists
+git commit -m "Add grunt results"
+git push scalingo master
+```
+
 # MeanJS Readme
 
 [![MEAN.JS Logo](http://meanjs.org/img/logo-small.png)](http://meanjs.org/)
