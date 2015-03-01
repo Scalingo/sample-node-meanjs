@@ -10,12 +10,12 @@ module.exports = {
 	},
 	log: {
 		// Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
-		format: 'combined',
+		format: 'combined'
 		// Stream defaults to process.stdout
 		// Uncomment to enable logging to a log on the file system
-		options: {
-			stream: 'access.log'
-		}
+		// options: {
+		// 	stream: 'access.log'
+		// }
 	},
 	assets: {
 		lib: {

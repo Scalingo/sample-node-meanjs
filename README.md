@@ -19,6 +19,20 @@ module.exports = {
 }
 ```
 
+Log everything to stdout (comment file log part)
+
+```js
+{
+  // ...
+  // options: {
+  //  stream: 'access.log'
+  // },
+  // ...
+}
+
+ 
+```
+
 config/env/all.js: Read `PORT` environment variable.
 
 ```js
