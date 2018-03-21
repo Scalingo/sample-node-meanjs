@@ -2,6 +2,8 @@
 
 https://sample-node-meanjs.scalingo.io
 
+Deploy in one-click: [![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
+
 ## Modifications of the standard distribution:
 
 config/env/production.js: Read `MONGO_URL` environment variable
@@ -30,7 +32,7 @@ Log everything to stdout (comment log file part)
   // ...
 }
 
- 
+
 ```
 
 config/env/all.js: Read `PORT` environment variable.

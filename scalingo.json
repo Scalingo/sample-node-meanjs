@@ -1,0 +1,15 @@
+{
+  "name": "Sample Node Express",
+  "description": "Sample web application using the Node.JS 'MeanJS' framework",
+  "logo": "https://raw.githubusercontent.com/Scalingo/sample-node-meanjs/master/logo.png",
+  "repository": "https://github.com/Scalingo/sample-node-meanjs",
+  "website": "https://scalingo.com",
+  "formation": {
+    "web": {
+      "amount": 1,
+      "size": "S"
+    }
+  },
+  "addons": ["scalingo-mongodb:mongo-sandbox"]
+}
+
