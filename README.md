@@ -1,8 +1,11 @@
-# Sample MeanJS application on Scalingo
-
-https://sample-node-meanjs.scalingo.io
+# [DEPRECATED] Sample MeanJS Application on Scalingo
 
 Deploy in one-click: [![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
+
+## DEPRECATION NOTICE
+
+This sample is currently deprecated and will not be maintained anymore
+because the MeanJS framework is not maintained anymore.
 
 ## Modifications of the standard distribution:
 
